@@ -1,0 +1,38 @@
+// Global Styling
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Jost', sans-serif !important;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+// Mixin Styling
+@mixin section{
+    width: 100%;
+    height: fit-content;
+    padding: 70px 30px;
+}
+
+@mixin flex_box{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+// Import Flies
+@import "header";
+@import "banner";
+@import "about";
+@import "services";
+@import "testimonial";
